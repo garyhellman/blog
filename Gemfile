@@ -1,3 +1,3 @@
-source "https://rubygems.org” do
-    gem "asciidoctor"
-end
+source "https://rubygems.org”
+
+gem "asciidoctor"
