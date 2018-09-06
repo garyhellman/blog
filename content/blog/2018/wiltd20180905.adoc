@@ -4,6 +4,8 @@ date: 2018-09-05T06:20:28-04:00
 draft: true
 tags: ["tag1","wfh"]
 categories: ["cat1","mule"]
+chapter = flase
+weight = 5
 ---
 
 :doctype: book
