@@ -1,0 +1,364 @@
+---
+title: Page-1-a
+date:  09/06/2018
+weight: 5
+---
+
+Lorem Ipsum.
+
+:doctype: book
+ifdef::asciidoctor[]
+// :source-highlighter: pygments
+:source-highlighter: highlightjs
+:highlightjs-theme: github
+// :highlightjs-theme: solarized-dark
+endif::asciidoctor[]
+:iconsdir: gfx/icons
+:sourcedir: src/main/java
+// :source-highlighter: coderay
+:icons:
+:toc: macro
+
+:footer: Designed and built with all the love in the world by @mdo and @fat.
+
+:link-assets:
+:linkattrs:
+:glyphicons: http://glyphicons.com[Glyphicons]
+:checkedbox: pass:normal[{startsb}&#10005;{endsb}]
+:uncheckedbox: pass:normal[{startsb}&#160;&#160;&#160;{endsb}]
+:lightbulb: pass:[&#128161;]
+:idea: pass:[&#128161;]
+:incareof: pass:[&#8453;]
+:rswiggle: pass:[&#8669;]
+:lswiggle: pass:[&#8668;]
+:alarmclock: pass:[&#9200;]
+:almclk2: pass:[&#x23F0;]
+:rtinxfing: pass:[&#x261E;]
+:qmark: pass:[&#xFF1F;]
+:umbrella: pass:[&#x2614;]
+:running_man: pass:[&#x1f3c3;]
+:muscle: pass:[&#x1f4aa;]
+:hand: pass:[&#x270b;]
+:red_circle: pass:[&#x1f534;]
+:large_blue_circle: pass:[&#x1f535;]
+:black_circle: pass:[&#x26ab;]
+
+
+. <<today, today>>
+. <<previously, previously>>
+. <<links, links>>
+
+[[today]]
+== Goals and Objectives Today
+
+* {uncheckedbox} file reimbursement
+* {uncheckedbox} review Mulesoft class
+* {uncheckedbox} get objectives from Alan for Mule role
+* {uncheckedbox} deploy ICLookup to Prod
+* {uncheckedbox} GSA meeting Wednesday
+* {uncheckedbox} copy over conf dir for ICLookup - 
+* {uncheckedbox} copy over war file for ICLookup
+* {uncheckedbox} 
+* {uncheckedbox} 
+* {uncheckedbox} 
+* {uncheckedbox} 
+* {uncheckedbox} 
+* {uncheckedbox} link:https://docs.mulesoft.com/runtime-manager/installing-and-configuring-runtime-manager-agent[]
+* {uncheckedbox} docking station?
+* {uncheckedbox} Mulesoft questions
+* {uncheckedbox} How best to initiate flow? HTTP request? authorization?
+* {uncheckedbox} hook up http request to start with
+* {uncheckedbox} get db query to file to sftp working
+* {uncheckedbox} run in on runtime (not only Anypoint)
+* {uncheckedbox} sftp to file
+* {uncheckedbox} file to db table
+* {uncheckedbox} how to import a file to db? (look at examples)
+* {uncheckedbox} Mulesoft batch vs flow - can batch be http requested?
+* {uncheckedbox} 
+* {uncheckedbox} 
+* {uncheckedbox} emscripten
+* link:https://kripken.github.io/emscripten-site/docs/getting_started/Tutorial.html#tutorial[]
+* {uncheckedbox} WebAssembly wasm
+* {uncheckedbox} WebAssembly with Golang (Rust, Elm)
+* {uncheckedbox} Alan's list from management meeting /re what is expected beyond taking this course
+* link:https://developer.acs.org/confluence/pages/viewpage.action?pageId=74121346[MuleSoft Q&A with Robert H]
+* {checkedbox} Mulesoft course notes - find slides pdf
+* {uncheckedbox} review old Mulesoft course notes
+* link:https://blogs.mulesoft.com/dev/mule-dev/client-side-mule/[]
+
+
+[[previously]]
+== Goals and Objectives Previously
+
+* {running_man} work in progress
+* {muscle} stretch goal for this iteration
+* {hand} blocked task
+* {red_circle} missing issue reference
+* {large_blue_circle} more investigation required to remove uncertainty
+* {black_circle} under discussion within the team
+* {running_man} get new dock station? (troubleshoot?)
+* {uncheckedbox} pen refill
+* {uncheckedbox} chop this doc down - make it more dynamic - less carry over
+* {checkedbox} load Merkle file
+* {checkedbox} Mulesoft course?
+* {checkedbox} find files from Mulesoft course
+* {uncheckedbox} KeyCloak and examples
+* {uncheckedbox} Mulesoft and examples
+* link:https://github.com/mulesoft/anypoint-examples[]
+* {uncheckedbox} Mulesoft extract and send to Merkle
+. Step1
+.. {uncheckedbox} Step1a - run stored procedure in db
+.. {uncheckedbox} Step1b - extract csv file from db
+. Step2
+.. {uncheckedbox} Step2a - Sftp file to Merkle site
+. Step3
+.. {uncheckedbox} Step3a - send email
+
+* {uncheckedbox} Mulesoft load Merkle
+. Step1
+.. {checkedbox} Step1a - Sftp csv file from Merkle site (Test Site)
+. Step2
+.. {uncheckedbox} Step2a - load csv file into db
+. Step3
+.. {uncheckedbox} Step3a - run stored procedure
+. Step4
+.. {uncheckedbox} Step4a - send email
+
+* {uncheckedbox} Hugo and examples
+* {uncheckedbox} ADHD - get list of Youtube link:https://www.youtube.com/channel/UC-nPM1_kSZf91ZGkcgy_95Q/videos[How to ADHD^]
+* {uncheckedbox} ElasticSearch and examples
+* {uncheckedbox} Get list of Audible books
+* {uncheckedbox} Get list of Kindle books
+* {uncheckedbox} fix desk at home
+* {uncheckedbox} remove Logitech discord applet - (what is it?)
+* {uncheckedbox} make postgresql manually started not automatic
+* {uncheckedbox} make Docker manually started not automatic
+* {checkedbox} checkout brilliant link:https://brilliant.org/weekly-problems/2018-08-20/basic/?p=3[]
+* {checkedbox} fix glasses and/or find new ones
+* {uncheckedbox} 
+* {uncheckedbox} 
+* {lightbulb} look into placing this blog on AWS with hugo
+* {checkedbox} asciidoc links that open in new tab - use a `^`
+* {rtinxfing} point to this
+* {uncheckedbox} Merkle file 
+* {uncheckedbox} create stored procedure to import Merkle file into table
+* {checkedbox} International Chapters
+* {uncheckedbox} need list of all servers 
+* {uncheckedbox} ssh to all servers - `keypair`
+* {uncheckedbox} using hugo-octopress theme for now - no search
+* {checkedbox} got mule project to send email (only via Gmail)
+* {uncheckedbox} install Mercury Mail to test MULE
+* link:https://www.open-emr.org/wiki/index.php/Mercury_Mail_Configuration_in_Windows[Mercury_Mail_Configuration_in_Windows, window="_blank"].
+* link:https://crunchify.com/java-mailapi-example-send-an-email-via-gmail-smtp/[^]
+* link:http://blog.java-hoster.com/2015/java-course/sending-emails-with-javamail[^]
+* link:https://www.youtube.com/watch?v=RyE7-vo4dUc[pilates diastasis recti^]
+* link:https://www.youtube.com/watch?v=TTlHT3d2Grs[Bujo Update + Tips From the Inventor of the Bullet Journal!^]
+* link:https://gist.github.com/thomasdarimont[^]
+* {lightbulb} directory watcher to build hugo site - deploy to nginx
+* {lightbulb} use powershell as a directory watcher to build hugo site - deploy to nginx
+* {lightbulb} powershell StartMonitoring is writing to the log file, what is next?
+* {lightbulb} Lynda class for powershell 5
+* {lightbulb} 5/20 = 25 things
+* {lightbulb} look into placing this blog on AWS with hugo
+* {lightbulb} Scholars writeup
+* {lightbulb} Form in Angular
+* {lightbulb} ColdFusion Form(s) in Angular/Java
+* {lightbulb} start using week of year tag "W52"
+* {uncheckedbox} get 08/05's page from old laptop
+* {idea} idea - 
+*  test of in care of {incareof}
+* {almclk2} link:https://www.compart.com/en/unicode/category/So[^]
+* link:https://github.com/asciidoctor/asciidoctor.org/blob/master/docs/_includes/icons.adoc[^]
+* {rswiggle} Do backup of old hard drive with Acronis (when it comes on Saturday)
+* {uncheckedbox} run client_ACS_mb_membership_monthly_generate.sql on DEV
+* {uncheckedbox} see how long it takes to run
+* {uncheckedbox} SSIS for Merkle
+* {uncheckedbox} find SSIS bat file for Store update
+* {uncheckedbox} get help with SSIS - Gareth?, DBAs?, Judy Shen?, netForum SS 2012
+* {uncheckedbox} SSIS course at Lynda, Udemy
+* {uncheckedbox} look into Mulesoft ETL for Merkle
+* {uncheckedbox} Load latest Merkle file (when it comes back from Merkle)
+* {uncheckedbox} Review Lynda course - time management; persuasion; assertiveness
+* {uncheckedbox} AMA course - assertiveness
+* {uncheckedbox} mockup screen for Scholars search
+* {uncheckedbox} Angular, React, Flutter
+* {uncheckedbox} create agenda for next meeting (Holley, Alan)
+* {uncheckedbox} Review agile slides
+* {uncheckedbox} Review Mulesoft meetings
+* {uncheckedbox} transfer to new computer
+* {uncheckedbox} get list for remote desktop access
+* {uncheckedbox} get list of NetForum servers
+* {uncheckedbox} install MSSQL on local (new computer)
+* {uncheckedbox} test MSSQL
+* {uncheckedbox} get accruals for vacation
+* {checkedbox} install Mulesoft
+* {checkedbox} run Mulesoft examples and tests
+* {uncheckedbox} run Keycloak examples and tests
+* {uncheckedbox} new Confluence, upload files
+* {uncheckedbox} backup hard drive from old computer
+* {qmark} return old computer
+* {qmark} clean desk
+* {uncheckedbox} check with security about hugo
+* {uncheckedbox} investigate hugo themes with more features than Minimo
+link:https://forestry.io/blog/search-with-algolia-in-hugo/[^]
+link:https://gist.github.com/sebz/efddfc8fdcb6b480f567[^]
+* {uncheckedbox} International Chapters meeting
+** add new eroster user with Ping
+** Go Live Sept 10th
+* {uncheckedbox}
+* {uncheckedbox} Go Database and Storage
+* link:https://github.com/gostor/awesome-go-storage[^]
+* {almclk2} Docker for Windows
+* link:https://github.com/docker/for-win/issues/412[^]
+* {checkedbox} install ruby
+* {checkedbox} install asciidoc, asciidoctor, asciidoctor-pdf
+* {checkedbox} install visual studio code plus plugins for asciidoc, python, etc.
+* {checkedbox} install hugo
+* {checkedbox} add global template for hugo header - timestamp, etc.
+* {uncheckedbox} make list of questions for Sri - Month end reports, SSIS, deployments
+* link:https://github.com/jsynowiec/vscode-insertdatestring[^]
+* {uncheckedbox}
+* {uncheckedbox} follow up on Coursera
+* {uncheckedbox} follow up on Udemy [Flutter, Dart, Go, SSIS, etc.^]
+* {uncheckedbox}
+* {uncheckedbox} http://www.sql-server-helper.com/tips/tip-of-the-day.aspx?[^]
+* {uncheckedbox} search within Hugo - elasticsearch
+* {uncheckedbox} search within Hugo - install elasticsearch
+* {uncheckedbox} search within Hugo - index Hugo with elasticsearch
+* {uncheckedbox} search within Hugo - try a search
+* {uncheckedbox}
+
+
+----
+ssh-copy-id user@hostname.example.com
+----
+
+----
+cat ~/.ssh/id_rsa.pub | ssh <user>@<hostname> 'umask 0077; mkdir -p .ssh; cat >> .ssh/authorized_keys && echo "Key copied"'
+----
+
+
+----
+  To load multiple properties files, separate each with commas:
+
+  <context:property-placeholder location="email.properties,http.properties,system.properties"/>
+  These files must be located at src/main/resources, inside your Mule project.
+----
+
+[[links]]
+== Links
+
+* link:https://docs.mulesoft.com/mule-user-guide/v/3.9/configuring-properties[]
+* link:https://support.mulesoft.com/s/article/How-to-stream-a-big-CSV-file-using-DataWeave[]
+* link:https://forums.mulesoft.com/questions/59469/transformation-of-a-csv-file-using-dataweave.html[]
+* link:https://docs.mulesoft.com/mule-user-guide/v/3.9/quartz-transport-reference[]
+* link:http://central.maven.org/maven2/org/mule/examples/[]
+* link:https://www.youtube.com/watch?v=Y_Ac6KiQ1t0[Strang - Lec 15 | MIT 18.06 Linear Algebra, Spring 2005]
+* link:http://math.mit.edu/~gs/linearalgebra/[]
+* link:https://github.com/verekia/js-stack-from-scratch[]
+* link:http://www.initializr.com/[]
+* link:https://www.technicalblogs.sentientmindz.com/2016/07/05/munittesting/[]
+* link:https://dzone.com/articles/unit-testing-mule-dataweave-scripts-with-munit-1?fromrel=true[]
+* link:https://httpie.org/doc[^]
+* link:https://akarnokd.blogspot.com/2016/03/operator-fusion-part-1.html[^]
+* link:https://github.com/robbyrussell/oh-my-zsh[^]
+* link:https://www.yogiapproved.com/yoga/diastasis-recti-recovery/[^]
+* link:https://www.youtube.com/watch?v=1OA7lXzf5Mk[yoga diastasis-recti^]
+* link:https://www.youtube.com/watch?v=7TGWeblZ0c8[How to tackle the clutter^]
+* link:https://www.youtube.com/watch?v=JiwZQNYlGQI[Failing at Normal: An ADHD Success Story | Jessica McCabe | TEDxBratislava^]
+* link:https://www.youtube.com/watch?v=_tpB-B8BXk0[This is how you treat ADHD based off science, Dr Russell Barkley part of 2012 Burnett Lecture^]
+
+
+* {uncheckedbox}
+* {uncheckedbox} get appropriate SoapUI query/host for each query to Integration Layer
+* {uncheckedbox} make a asciidoc arc42 site of Sri's tasks
+* {uncheckedbox} rename that web site from Sri's tasks to what?
+* {uncheckedbox} du --max-depth=1 > C_root_space.csv
+* {uncheckedbox} review more Sri tasks, document schedule and skills necessary
+* {uncheckedbox} mobile app for Stars ticket, package with Cordova, Ionic
+* {uncheckedbox} Confluence - arc42 upload capability with new version
+* {uncheckedbox} Confluence - pages per each application with links to "maven site" results, also upload html page to confluence
+* {uncheckedbox} SonarQube (indicates vulnerabilities somehow)
+* {uncheckedbox}
+* {uncheckedbox}
+* {uncheckedbox} start to schedule to study stored procedure for monthly counts
+* {uncheckedbox} send email to GSA Team about JSON and other values to new version
+* {uncheckedbox} create repo for Sri documentation with asciidoc/arc42 build
+* {uncheckedbox} when will we meet about Sri tasks {Alan, Gareth, Sameer, myself, others?}
+* {checkedbox} which Sri's projects has the excel macros to copy and paste?
+* {uncheckedbox} KeePass for netforum, db, servers, etc. icsstage$ ics$prod
+* {uncheckedbox} Merkle import (and export) - SSIS
+* {uncheckedbox} Merkle stp packaging 1005955 Cherwell ticket number
+* {checkedbox} find Sri task with Excel macros (source code imports)
+* {uncheckedbox} review Sri task NCOA
+* {checkedbox} ask Alan for Sri Task review gtm recording 1/10/2018 Wednesday; upload it
+* {uncheckedbox} check email for scholars tasks on hold - email from Songul - 2/7/2018
+* {uncheckedbox} when I have an extra 10 hours per week, I will ...
+* {uncheckedbox}
+* {uncheckedbox} 10 goal buckets - place in toodledo or somewhere else
+* {uncheckedbox}
+* {uncheckedbox}
+* {uncheckedbox}
+* {uncheckedbox}
+* {uncheckedbox} create a skills matrix - for Sri's KT - enumerate skills mentioned; Ray Liu's diagrams for netForum?
+* {uncheckedbox} GSA - CONNECT remediation - need project manager
+* {uncheckedbox} International Chapters - ICLookup - find user interface writeup
+* {uncheckedbox} International Chapters - erosters
+* {uncheckedbox} International Chapters - erosters - check admin user for complete list of chapters
+* {uncheckedbox} International Chapters - erosters - get help from Gareth
+* and the various web service infocentral vs integration layer
+* {uncheckedbox} International Chapters - erosters - deploy to staging
+* {uncheckedbox} International Chapters - deploy to staging
+* {uncheckedbox} erosters for International Chapters
+* {uncheckedbox} email team w/re: member client - date routines
+* {uncheckedbox} investigate seedfa - make sure database housekeeping is ok - may have connection leaks?
+* link:https://developer.jboss.org/wiki/WhatDoesTheMessageDoYourOwnHousekeepingMean[^]
+* link:https://seedfa.acs.org/seed-1.0/login/admin[seedfa admin^]
+* {checkedbox} fullstack homework
+* {uncheckedbox} check code for lslookup and iclookup and member client lib.
+* {checkedbox} adjust garage door opener - how to?
+* {uncheckedbox} install printer, teeter, paper cutter, desk
+* {uncheckedbox} check out fitness center at work
+* {uncheckedbox} carryover limit - 320  - need to take much more vacation next year
+* {uncheckedbox}
+* {uncheckedbox}
+* {checkedbox} Merkle runbook to stored procedure
+* {checkedbox} CR for IC lslookup and ICLookup and erosters - Prod?
+* {uncheckedbox} Staging servers: stag-lnx-151-154(???)
+* {uncheckedbox} Staging servers: stag-lnx-196(int), stag-lnx-197(int), stag-lnx-198(ext), stag-lnx-199(ext)
+* {uncheckedbox} Production servers: prod-lnx-173, prod-lnx-174, prod-lnx-175, prod-lnx-176
+* {uncheckedbox} Production servers (internal): prod-lnx-179, prod-lnx-180
+* {uncheckedbox} Merkle stored procedure
+* link:https://chimpler.wordpress.com/2014/07/22/building-a-food-recommendation-engine-with-spark-mllib-and-play/[^]
+* link:http://ampcamp.berkeley.edu/big-data-mini-course/movie-recommendation-with-mllib.html[^]
+* {uncheckedbox}
+* {checkedbox} link:https://iclookupdev.acs.org/iclookup/local_search[iclookup dev^]
+* {checkedbox} link:https://dev-lnx-133:8443/iclookup/local_search[iclookup 133^]
+* {checkedbox} link:https://dev-lnx-134:8443/iclookup/local_search[iclookup 134^]
+* {uncheckedbox} https://api.stoplight.io/v1/versions/9WaNJfGpnnQ76opqe/export/raml.yaml
+* {uncheckedbox}
+* {checkedbox} create and transfer new application.properties for lslookup and iclookup to staging servers 198, 199
+* {uncheckedbox} link:https://localhost:8443/erosters/Verify[^]
+* {uncheckedbox}
+* {uncheckedbox} gsadc7-int:8000 - license good until January 9, 2018 ??? seems soon
+* {uncheckedbox}
+* {uncheckedbox} https://seedfa.acs.org/seed-1.0/login/admin
+* {uncheckedbox} https://seedfa.acs.org/seed-1.0/snoop.jsp Hostname prod-lnx-179.acs.org
+* {uncheckedbox} https://access.redhat.com/solutions/1395503[Getting Provider com.sun.script.javascript.RhinoScriptEngineFactory not found ERROR in EAP 6 running on Java 8^]
+* {uncheckedbox}
+* {uncheckedbox} find old blender in basement
+* {uncheckedbox} most of these entries are left-over from day-to-day - find a way to update, archive, search these
+* {uncheckedbox} make these searchable; build index; serve index; Solr?
+* {uncheckedbox} fullstack assignment
+* {uncheckedbox} Is Rasberry Pi - DIY buildable?
+* link:https://www.alliedelec.com/raspberry-pi-raspberry-pi-b-/70377493/?mkwid=s
+* &pcrid=239101839680&gclid=Cj0KCQiA4bzSBRDOARIsAHJ1UO6t6LsgIm52oCnfopC3KItb9b8093sxkaJw
+* RfbCaUVQeo728vup0rMaAl6CEALw_wcB[RasPi B+ 24.99 Allied^]
+* link:https://aknay.github.io/2017/05/09/how-to-install-scala-and-sbt-in-raspberry-pi-3.html[^]
+* link:https://github.com/jkransen/framboos[^]
+* link:http://pi4j.com/[^]
+* link:http://dev-nfrep12/Reports/Pages/Folder.aspx[SQL Server Reporting Services - Home^]
+* {uncheckedbox}
+* {uncheckedbox}
+* {uncheckedbox}
+* link:http://zetcode.com/articles/springbootswing/[^]

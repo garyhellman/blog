@@ -1,11 +1,7 @@
 ---
-title: wiltd20180905.adoc Wednesday
-date: 2018-09-05T06:20:28-04:00
-draft: true
-tags: ["tag1","wfh"]
-categories: ["cat1","mule"]
-chapter: false
-weight: 15
+title: Page-1-c 
+date:  09/06/2018
+weight: 5
 ---
 
 :doctype: book
@@ -229,26 +225,6 @@ link:https://gist.github.com/sebz/efddfc8fdcb6b480f567[^]
 * {uncheckedbox} search within Hugo - index Hugo with elasticsearch
 * {uncheckedbox} search within Hugo - try a search
 * {uncheckedbox}
-
-
----- 
-Building sites … WARNING: make non-relative ref/relref page reference(s) in page "/docs/search-support.md" absolute, e.g. {{< ref "/blog/my-post.md" >}}
-WARNING: make non-relative ref/relref page reference(s) in page "/docs/sidebar.md" absolute, e.g. {{< ref "/blog/my-post.md" >}}
-WARNING: make non-relative ref/relref page reference(s) in page "/docs/menus.md" absolute, e.g. {{< ref "/blog/my-post.md" >}}
-WARNING: make non-relative ref/relref page reference(s) in page "/docs/updating.md" absolute, e.g. {{< ref "/blog/my-post.md" >}}
-WARNING: make non-relative ref/relref page reference(s) in page "/docs/installation.md" absolute, e.g. {{< ref "/blog/my-post.md" >}}
-Total in 9510 ms
-Error: Error building site: Error(s) rendering pages: open C:\hugo\wilt\public\tags\index.html: The requested operation cannot be performed on a file with a user-mapped section open.
-errorlevel: -1
-Press any key to continue . . .
-[ 'C:\\Programs\\nodejs\\node.exe',
-  'C:\\hugo\\wilt\\themes\\minimo\\scripts\\generate-search-index-lunr.js',
-  'C:\\hugo\\wilt\\public' ]
-C:\hugo\wilt\public
-[]
-errorlevel: 0
----- 
-
 
 ----
 ssh-copy-id user@hostname.example.com
